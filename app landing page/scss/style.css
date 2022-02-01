@@ -1,0 +1,266 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@400;500;700&family=Lora:wght@400;500;700&family=Montserrat:ital,wght@0,300;0,500;0,700;1,900&display=swap");
+nav, nav ul, main, main .container .button, main .container .button button, #Overview, .PricingBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #192ff1;
+  padding: 0 4rem;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+a:hover {
+  color: #76c631;
+}
+
+button {
+  outline: none;
+  border: none;
+  border-radius: 0.2rem;
+  padding: 0.5em;
+  font-size: 1.3rem;
+  background-color: #76c631;
+  color: #ffffff;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+button:hover {
+  background-color: #ffffff;
+  color: #76c631;
+}
+
+nav {
+  position: static;
+  margin-top: 1rem;
+}
+
+nav img {
+  width: 200px;
+}
+
+nav ul {
+  list-style: none;
+  width: 50%;
+}
+
+main {
+  margin-top: 3rem;
+}
+
+main .container h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  color: #ffffff;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+
+main .container p {
+  font-family: "Hind Madurai", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 2rem 0;
+  color: #ffffffb7;
+}
+
+main .container .button button {
+  font-size: 2.5rem;
+  margin: 2rem 0;
+}
+
+main .container .button button img {
+  width: 50px;
+  margin-right: 1rem;
+}
+
+main .container .button #PlayStore {
+  background-color: #ffffff;
+  color: #76c631;
+}
+
+main .container .button #PlayStore:hover {
+  color: #ffffff;
+  background-color: #76c631;
+}
+
+main picture img {
+  width: 110%;
+}
+
+.tagline {
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.tagline h3 {
+  color: #76c631;
+  font-size: 1.5rem;
+  font-family: "Hind Madurai", sans-serif;
+}
+
+.tagline h1 {
+  color: #ffffff;
+  font-size: 3rem;
+  font-weight: 900;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 2rem;
+}
+
+.tagline p {
+  margin-top: 1rem;
+  color: #ffffffb7;
+  font-size: 1.2rem;
+  font-weight: 500;
+  font-family: "Hind Madurai", sans-serif;
+}
+
+.features-box {
+  margin-top: 4rem;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  grid-gap: 2rem;
+      grid-template-areas: " item1 item2 item3" " item4 item5 item6";
+}
+
+.features-box .item {
+  background-color: #c2c8ff;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  padding: 1em;
+}
+
+.features-box .item img {
+  width: 70px;
+  padding: 0.2em;
+  border-radius: 0.5rem;
+}
+
+.features-box .item h3 {
+  color: #000;
+  font-size: 1.5rem;
+  font-family: "Hind Madurai", sans-serif;
+}
+
+.features-box .item p {
+  margin-top: 0.5rem;
+  color: #000;
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: "Hind Madurai", sans-serif;
+}
+
+#Overview {
+  margin-top: 3rem;
+}
+
+#Overview h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  color: #ffffff;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+
+#Overview p {
+  font-family: "Hind Madurai", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin: 2rem 0;
+  color: #ffffffb7;
+}
+
+#Overview button {
+  font-size: 2rem;
+  border-radius: 00.2em;
+}
+
+#Overview img {
+  width: 500px;
+  padding: 3rem;
+}
+
+.PricingBox {
+  margin-top: 3rem;
+}
+
+.PricingBox .item {
+  background-color: #c2c8ff;
+  border-radius: 0.2rem;
+  padding: 0.6em;
+  margin: 1rem;
+}
+
+.PricingBox .item h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  color: #000;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+
+.PricingBox .item h1 sub {
+  margin-top: -3rem;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.PricingBox .item h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.8rem;
+  color: #192ff1;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin-bottom: 0.6rem;
+}
+
+.PricingBox .item h4 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  color: #192ff1;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+}
+
+.PricingBox .item p {
+  font-family: "Hind Madurai", sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  color: #6b6b6b;
+}
+
+.PricingBox .item button {
+  margin: 1rem 0;
+}
+/*# sourceMappingURL=style.css.map */
